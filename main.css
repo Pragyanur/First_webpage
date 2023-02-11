@@ -61,10 +61,6 @@ nav{
     cursor: pointer;
 }
 
-button{
-    background-color: black;
-    color: white;
-}
 #social img {
     background-color: rgb(255, 255, 255);
     color: rgb(29, 29, 29);
@@ -76,6 +72,7 @@ button{
     background-color: rgb(201, 201, 201);
     color: rgb(29, 29, 29);
 }
+
 
 nav ul {
     list-style: none;
@@ -89,4 +86,13 @@ nav li {
 nav a {
     color: rgb(66, 66, 66);
     text-decoration: none;
+}
+a{
+    color: darkcyan;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: darkgreen;
 }
