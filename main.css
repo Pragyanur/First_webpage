@@ -32,6 +32,15 @@ h5{
     padding: 0px;
 }
 
+table, tr, th, td, caption{
+    color: black;
+    border: 3px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
 address{
     background-color: rgb(65, 65, 65);
     color: rgb(127, 127, 127);
