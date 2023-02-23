@@ -40,6 +40,22 @@ table, tr, th, td, caption{
     padding: 5px;
 }
 
+form{
+    border: 3px;
+    background-color: rgb(199, 185, 171);
+    border-color: rgb(169, 156, 143);
+    border-style: solid;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+#review{
+    
+}
+
+article{
+    padding: 10px 0px;
+}
 
 address{
     background-color: rgb(65, 65, 65);

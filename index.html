@@ -106,7 +106,26 @@
             </section>
             <!--article ends here-->
             </article>
-            
+            <article>
+                <h4>SURVEY</h4>
+                <p>Please let me know what you think about this webpage</p>
+                <form action="https://httpbin.org/grt" method="get">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Pragyanur" autocomplete="on" required autofocus><br><br>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Saikia" autocomplete="on" required><br><br>
+                    <label for="pass">Password:</label>
+                    <input type="password" name="pass" id="pass" placeholder="type in a strong password" required><br><br>
+                    <label for="phone">Phone no.:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="1234567890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><br><br>
+                    <!--type="tel" brings up a numeric keypad/dial in mobike devices
+                    the pattern is like a code, it only allows the form to be submitted when the required pattern is fulfilled-->
+                    <label for="review">Comments:</label>
+                    <input type="text" name="review" id="review" placeholder="need more dynamism" required><br><br><br>
+                    <input type="submit" id="submit">
+                </form>
+
+            </article>
         </main>
                 
         <address>
