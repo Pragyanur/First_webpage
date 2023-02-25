@@ -46,12 +46,9 @@ form{
     border-color: rgb(169, 156, 143);
     border-style: solid;
     padding: 10px 10px;
-    text-align: center;
+    text-align: left;
 }
 
-#review{
-    
-}
 
 article{
     padding: 10px 0px;
