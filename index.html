@@ -7,7 +7,7 @@
     <meta name="description" content="Learning from Dave Gray HTML full course for beginners">
     <title>FIRST WEBSITE (dave gray)</title>
     <link rel="icon" href="./images/myLogo.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
 </head>
 
 <body>
@@ -75,12 +75,12 @@
                         target="_blank">Dave gray tutorials</a>.
                     <br><br><br><br> <!-- br*4 -->
                     Find below the list of these incomplete works:
-                <ul>
+                <ol type="I">
                     <li><a href="game.html" target="_blank">Trying to use react(FAILED)</a> open in new tab</li>
                     <li><a href="website.html" target="_blank">Portfolio website(INCOMPLETE)</a> open in new tab</li>
                     <li><a href="Pragyanur_Art_Animation.html" target="_blank">Two profile Portfolio
                             website(INCOMPLETE)</a> open in new tab</li>
-                </ul>
+                </ol>
                 </p>
                 <aside>
                     <p>this space is known as aside. keeps complementary information of the section</p>
@@ -122,18 +122,30 @@
             <form action="https://httpbin.org/grt" method="get">
                 <fieldset>
                     <legend>Personal information</legend>
+
                     <label for="firstName">First Name:</label>
                     <input type="text" name="firstName" id="firstName" placeholder="Pragyanur" autocomplete="on"
                         required><br><br> <!--autofocus-->
+
                     <label for="lastName">Last Name:</label>
                     <input type="text" name="lastName" id="lastName" placeholder="Saikia" autocomplete="on"
                         required><br><br>
+
                     <label for="pass">Password:</label>
                     <input type="password" name="pass" id="pass" placeholder="type in a strong password"
                         required><br><br>
+
+                    <label for="gender">Gender: </label>
+                    <input list="gender">
+                    <datalist name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </datalist><br><br>
+
                     <label for="phone">Phone no.:</label>
                     <input type="tel" name="phone" id="phone" placeholder="1234567890" pattern="[0-9]{10}"
                         required><br><br>
+
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" placeholder="abc@gmail.com" required><br><br>
 
@@ -145,8 +157,7 @@
 
                     <label for="coffee">Favourite coffee:</label>
                     <select name="coffee" id="coffee" required>
-                        <!------------------------------- can use datalist instead-->
-                        of select
+                        <!------------------------------- can use datalist instead of select-->
                         <optgroup label="COFFEES">
                             <option value="1">Regular Coffee</option>
                             <option value="2">Iced Coffee</option>
@@ -187,8 +198,7 @@
 
                 <fieldset>
                     <legend>REVIEWS</legend>
-                    <label for="review">Comments:</label>
-                    <input type="text" name="review" id="review" placeholder="need more dynamism" required><br>
+                    <textarea name="review" id="review" cols="195" rows="5">Write your review here...</textarea><br>
                 </fieldset>
                 <br>
                 <input type="submit" id="submit">
