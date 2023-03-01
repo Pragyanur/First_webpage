@@ -1,4 +1,4 @@
-# My first web page
+# My first website
 
 ## Brief
 - Practical learning experiment in HTML, CSS and JavaScript
