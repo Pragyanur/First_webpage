@@ -2,7 +2,7 @@
 
 ## Brief
 - Practical learning experiment in HTML, CSS and JavaScript
-- This web page is a work in progress
+- This web site is a work in progress
 
 ## Learning and Understanding
 - Working of web pages
