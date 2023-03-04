@@ -8,6 +8,9 @@
     <title>FIRST WEBSITE (dave gray)</title>
     <link rel="icon" href="/images/myLogo.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -116,12 +119,13 @@
             </section>
             <!--article ends here-->
         </article>
-        <article>
-            <h4>SURVEY</h4>
-            <p>Please let me know what you think about this webpage</p>
+        <h4>SURVEY</h4>
+        <p>Please let me know what you think about this webpage</p>
+        <article id="data">
+            
             <form action="https://httpbin.org/grt" method="get">
                 <fieldset>
-                    <legend>Personal information</legend>
+                    <legend>PERSONAL INFORMATION</legend>
 
                     <label for="firstName">First Name:</label>
                     <input type="text" name="firstName" id="firstName" placeholder="Pragyanur" autocomplete="on"
@@ -198,13 +202,15 @@
 
                 <fieldset>
                     <legend>REVIEWS</legend>
-                    <textarea name="review" id="review" cols="195" rows="5">Write your review here...</textarea><br>
+                    <textarea name="review" id="review">Write your review here...</textarea><br>
                 </fieldset>
                 <br>
                 <input type="submit" id="submit">
             </form>
-
+            <img src="/images/myLogo.jpeg" alt="my logo" width="1000" height="1000">
         </article>
+        
+
     </main>
 
     <address>
