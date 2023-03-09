@@ -121,21 +121,24 @@ footer {
     right: 0px;
     top: 50px;
     background-color: rgba(0, 0, 0, 0.363);
-    margin-left: 0px;
+    padding: 7px;
+    border-radius: 10px;
 }
-
-#social li {
-    display: block;
-    margin-left: 0px;
-    padding: 0px;
+#social p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0;
+    color: #000000;
+    font-size: 80%;
+    text-align: center;
 }
-
 #social img {
     background-color: rgb(255, 255, 255);
     color: rgb(29, 29, 29);
     padding: 5px;
     cursor: pointer;
     display: block;
+    border-radius: 20%;
+    margin: 7px 2px 7px 2px
 }
 
 #social img:hover {
@@ -181,4 +184,5 @@ a:hover {
     background-color: rgba(72, 25, 25, 0.486);
     color: #ffffff;
     padding: 0px 4px;
+    orientation: portrait;
 }
