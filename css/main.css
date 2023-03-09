@@ -72,8 +72,10 @@ textarea {
 
 article {
     padding: 10px 0px;
+
 }
 
+/* form inside article id data */
 #data {
     display: flex;
     margin: 10px;
@@ -91,6 +93,7 @@ address {
     padding: 20px;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px 20px 0px 0px;
 }
 
 footer {
@@ -98,7 +101,7 @@ footer {
     color: rgb(83, 83, 83);
     padding: 15px;
     text-align: center;
-    /* border: solid 5px rgb(45, 84, 89); */
+    border-radius: 0px 0px 20px 20px;
 }
 
 /* nav{
@@ -124,13 +127,15 @@ footer {
     padding: 7px;
     border-radius: 10px;
 }
-#social p{
+
+#social p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 0;
     color: #000000;
     font-size: 80%;
     text-align: center;
 }
+
 #social img {
     background-color: rgb(255, 255, 255);
     color: rgb(29, 29, 29);
@@ -185,4 +190,5 @@ a:hover {
     color: #ffffff;
     padding: 0px 4px;
     orientation: portrait;
+    border-radius: 4px;
 }
