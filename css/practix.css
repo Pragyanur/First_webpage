@@ -11,6 +11,19 @@ canvas{
 }
 
 a{
-    background-color: rgb(185, 151, 216);
-    color: rgb(67, 52, 75);
+    border: 5px solid rgb(137, 93, 158);
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(179, 137, 198);
+    color: rgb(35, 23, 40);
+    text-decoration: blue;
 }
+
+ul{
+    line-height: 30px;
+}
+li{
+    display:inline;
+}
+
+/* css is based on hash map (key: value) pairs*/
