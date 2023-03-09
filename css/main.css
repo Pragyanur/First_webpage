@@ -2,21 +2,31 @@
     box-sizing: border-box;
 } */
 html {
-    background-color: rgb(211, 211, 211);
-    color: rgb(82, 82, 82);
+    background-color: rgb(0, 0, 0);
+    color: rgb(173, 173, 173);
     font-family: "poppins";
+}
+body{
+    padding: 20px;
+    border-radius: 60px;
+    background-color: rgb(28, 54, 51);
 }
 
 header {
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(99, 128, 124);
+    color: rgb(44, 83, 78);
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 10px;
+    border-bottom: 10px solid rgb(44, 83, 78);
+    border-radius: 50px 50px 0px 0px;
 }
 
 header section h1 {
     font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 #PLE {
@@ -24,15 +34,16 @@ header section h1 {
     font-size: 120%;
 }
 
-h1 {
-    text-align: left;
-    color: rgb(26, 26, 26);
-}
 
 h3 {
-    background-color: white;
-    color: rgb(52, 52, 52);
-    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(21, 37, 32);
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+h3 img{
+    position: relative;
+    top: 5px;
 }
 
 h5 {
@@ -55,8 +66,10 @@ caption {
 
 form {
     width: 30%;
-    background-color: rgb(192, 171, 199);
+    color: #272727;
+    background-color: rgb(104, 149, 142);
     padding: 10px 10px;
+    border-radius: 15px;
 }
 
 legend {
@@ -83,13 +96,13 @@ article {
 
 #data img {
     margin-left: 30px;
-
+    border-radius: 15px;
 }
 
 
 address {
-    background-color: rgb(65, 65, 65);
-    color: rgb(127, 127, 127);
+    background-color: rgb(41, 76, 70);
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -97,35 +110,39 @@ address {
 }
 
 footer {
-    background-color: rgb(49, 49, 49);
-    color: rgb(83, 83, 83);
+    background-color: rgb(12, 32, 28);
+    color: rgb(33, 70, 59);
     padding: 15px;
     text-align: center;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 50px 50px;
 }
 
 /* nav{
     display: flex;
 } */
 #navigation {
-    padding: 10px;
+    padding: 0px;
 }
 
-#navigation li {
-    background-color: rgb(170, 170, 170);
-    color: rgb(71, 71, 71);
+#navigation a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(44, 83, 78);
+    color: rgb(177, 200, 197);
     padding: 10px 15px;
-    border: none;
+    border-radius: 10px;
     cursor: pointer;
+}
+#navigation a:hover{
+    background-color: rgb(52, 93, 87);
 }
 
 #social {
     position: fixed;
     right: 0px;
     top: 50px;
-    background-color: rgba(0, 0, 0, 0.363);
-    padding: 7px;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.53);
+    padding: 8px 10px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #social p {
@@ -133,11 +150,12 @@ footer {
     line-height: 0;
     color: #000000;
     font-size: 80%;
+    font-weight: 500;
     text-align: center;
 }
 
 #social img {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     color: rgb(29, 29, 29);
     padding: 5px;
     cursor: pointer;
@@ -147,7 +165,7 @@ footer {
 }
 
 #social img:hover {
-    background-color: rgb(201, 201, 201);
+    background-color: rgba(255, 255, 255, 0.815);
     /* color: rgb(29, 29, 29); */
 }
 
@@ -163,24 +181,26 @@ nav a {
 }
 
 a {
-    color: darkcyan;
+    color: rgb(166, 157, 79);
+    text-decoration: none;
 }
 
 a:visited {
-    color: brown;
+    color: rgb(177, 69, 69);
 }
 
 a:hover {
-    color: darkgreen;
+    color: rgb(255, 239, 94);
 }
 
 #submit {
-    color: rgb(225, 252, 255);
-    background-color: rgb(19, 35, 36);
-    width: 300px;
-    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 70, 72);
+    padding: 10px;
     font-size: large;
     text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
 }
 
 #pFixed {
@@ -191,4 +211,7 @@ a:hover {
     padding: 0px 4px;
     orientation: portrait;
     border-radius: 4px;
+}
+#dldLogo{
+    border-radius: 20px;
 }
