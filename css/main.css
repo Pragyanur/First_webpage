@@ -1,6 +1,7 @@
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
+
 html {
     background-color: rgb(0, 0, 0);
     color: rgb(173, 173, 173);
@@ -219,3 +220,4 @@ a:hover {
 #dldLogo {
     border-radius: 20px;
 }
+
