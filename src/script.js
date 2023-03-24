@@ -35,3 +35,10 @@ console.log(num + 5);
 console.log("Number(str1) + 5: ");
 console.log(Number(str1) + 5);
 
+
+const alpha = "ALPHA";
+// module.exports = {
+//     alpha,
+// }
+
+exports.alp = alpha;
