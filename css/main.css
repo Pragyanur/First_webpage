@@ -134,10 +134,14 @@ footer {
     padding: 10px 15px;
     border-radius: 10px;
     cursor: pointer;
+    transition: 300ms;
 }
 
 #navigation a:hover {
-    background-color: rgb(52, 93, 87);
+    background-color: rgb(38, 72, 68);
+    color: rgb(200, 225, 222);
+    box-shadow: 0px 5px 5px 5px rgb(135, 163, 159);
+    transition: 300ms;
 }
 
 #social {
@@ -165,12 +169,14 @@ footer {
     cursor: pointer;
     display: block;
     border-radius: 20%;
-    margin: 7px 2px 7px 2px
+    margin: 7px 2px 7px 2px;
+    transition: 300ms;
 }
 
 #social img:hover {
     background-color: rgba(255, 255, 255, 0.815);
     /* color: rgb(29, 29, 29); */
+    transition: 300ms;
 }
 
 
@@ -187,6 +193,7 @@ nav a {
 a {
     color: rgb(166, 157, 79);
     text-decoration: none;
+    transition: 250ms;
 }
 
 a:visited {
@@ -195,6 +202,7 @@ a:visited {
 
 a:hover {
     color: rgb(255, 239, 94);
+    transition: 250ms;
 }
 
 #submit {

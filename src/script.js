@@ -41,4 +41,4 @@ const alpha = "ALPHA";
 //     alpha,
 // }
 
-exports.alp = alpha;
+exports.alp = alpha; //exports

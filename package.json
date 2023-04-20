@@ -1,0 +1,22 @@
+{
+  "name": "first_webpage",
+  "version": "1.0.0",
+  "description": "- Practical learning experiment in HTML, CSS and JavaScript\r - This web site is a work in progress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pragyanur/html.git"
+  },
+  "author": "pragyanur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pragyanur/html/issues"
+  },
+  "homepage": "https://github.com/Pragyanur/html#readme",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  }
+}

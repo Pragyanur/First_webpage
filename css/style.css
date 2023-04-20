@@ -1,4 +1,15 @@
-html {
-  background-color: rgb(29, 37, 16);
-  color:rgb(136, 162, 91);
+* {
+  box-sizing: border-box;
+}
+
+/* .row, [class*=row] {
+  border: 1px black solid;
+  background-color: rgb(175, 175, 175);
+} */
+.col, [class*=col] {
+  border: 1px brown solid;
+  margin-right: 5px;
+}
+div {
+  border-radius: 5px;
 }
