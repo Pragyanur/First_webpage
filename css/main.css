@@ -31,11 +31,15 @@ header section h1 {
     color: rgb(255, 255, 255);
 }
 
-#PLE {
+#PLE, #PLE a {
     font-family: monospace;
     font-size: 120%;
+    color: rgb(44, 83, 78);
 }
 
+#PLE a:hover {
+    color: rgb(21, 36, 34);
+}
 
 h3 {
     background-color: rgb(255, 255, 255);
@@ -196,9 +200,7 @@ a {
     transition: 250ms;
 }
 
-a:visited {
-    color: rgb(177, 69, 69);
-}
+
 
 a:hover {
     color: rgb(255, 239, 94);
