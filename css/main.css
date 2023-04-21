@@ -229,8 +229,14 @@ a:hover {
 
 #dldLogo {
     border-radius: 20px;
+    transition: 300ms;
 }
-
+#dldLogo:hover{
+    
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 3px 10px 3px rgb(24, 46, 43);
+    transition: 100ms;
+}
 
 #extra {
     text-align: center;
