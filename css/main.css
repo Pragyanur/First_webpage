@@ -189,7 +189,7 @@ a:hover {
     padding: 5px;
     cursor: pointer;
     display: block;
-    border-radius: 20%;
+    border-radius: 50%;
     margin: 7px 2px 7px 2px;
     transition: 300ms;
 }
